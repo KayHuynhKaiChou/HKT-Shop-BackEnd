@@ -14,7 +14,7 @@ const port = process.env.PORT || 4000;
 
 
 app.use(cors({
-    origin : 'http://localhost:4000',
+    origin : 'https://hktshop.onrender.com',
     credentials : true
 }));
 //PayloadTooLargeError: request entity too large , lỗi này ở phần set avatar bằng 
